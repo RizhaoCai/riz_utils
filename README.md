@@ -1,1 +1,1 @@
-This repo contains useful function for deep learning experiments
+This repo contains useful functions for deep learning experiments
