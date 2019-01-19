@@ -24,7 +24,7 @@ def load_h5_to_mem(db,fetct_list,slice_operation):
     fetched_data_mem = []
     for i in range(len(fetched_data)):
         data = eval("fetched_data[i]"+slice_operation)
-        fetched_data_mem.append[data]
+        fetched_data_mem.append(data)
     return fetched_data_mem # numpy data
 
 def load_h5_from_dir(h5_dir,fetct_list):
